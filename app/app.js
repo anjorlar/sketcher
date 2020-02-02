@@ -5,7 +5,7 @@ const app = express();
 
 app.use(bodyparser.urlencoded({ extended: false }));
 
-const PORT = process.env.PORT
+const PORT = process.env.PORT;
 app.listen(PORT, function () {
     console.log(`listening on PORT ${PORT}`)
-})
+});
